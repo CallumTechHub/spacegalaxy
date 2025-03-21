@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking System</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="planetakeoff">
+    <img src="./planeimage.png">
+</div>
+
+<div class="planelanding">
+    <img src="./planeimage.png">
+</div>
+    <div class="container">
+        <h1>Flight Booking System</h1>
+
+        <!-- Flight Selection Form -->
+        <div class="form-section">
+            <h2>Select Flight</h2>
+            <form id="flightForm">
+                <label for="departure">Departure City:</label>
+                <select id="departure" name="departure">
+                    <option value="Manchester">Manchester</option>
+                    <option value="London">London</option>
+                    <option value="Liverpool">Liverpool</option>
+                    <option value="Edinburgh">Edinburgh</option>
+                    <option value="Glasgow">Glasgow</option>
+                    <option value="Paris">Paris</option>
+                    <option value="New York">New York</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="Washington">Washington</option>
+                    <option value="New Mexico">New Mexico</option>
+                    <option value="Rome">Rome</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Lanzarotte">Lanzarotte</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Beijing">Beijing</option>
+                    <option value="Berlin">Berlin</option>
+                    <option value="San Francisco">San Francisco</option>
+                    <option value="Sao Paulo">São Paulo</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Seoul">Seoul</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Moscow">Moscow</option>
+                    <option value="Dublin">Dublin</option>
+                    <option value="Oslo">Oslo</option>
+                    <option value="Rome">Cairo</option>
+                    <option value="Toronto">Toronto</option>
+                </select>
+
+                <label for="destination">Destination City:</label>
+                <select id="destination" name="destination">
+                    <option value="Earth">Earth</option>
+                    <option value="Saturn">Saturn</option>
+                    <option value="Jupiter">Jupiter</option>
+                    <option value="Mercury">Mercury</option>
+                    <option value="Mars">Mars</option>
+                    <option value="Venus">Venus</option>
+                    <option value="Neptune">Neptune</option>
+                    <option value="Uranus">Uranus</option>
+                </select>
+
+                <label for="date">Date of Travel:</label>
+                <input type="date" id="date" name="date">
+
+                <button type="submit">Next</button>
+            </form>
+        </div>
+
+        <!-- Passenger Details Form -->
+        <div class="form-section" id="passengerFormSection" style="display: none;">
+            <h2>Passenger Details</h2>
+            <form id="passengerForm">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="contact">Contact Number:</label>
+                <input type="text" id="contact" name="contact" required>
+
+                <button type="submit">Confirm Booking</button>
+            </form>
+        </div>
+
+        <!-- Booking Summary -->
+        <div id="bookingSummary" style="display: none;">
+            <h2>Booking Summary</h2>
+            <p id="flightDetails"></p>
+            <p id="passengerDetails"></p>
+            <button id="confirmButton">Confirm Booking</button>
+        </div>
+
+        <!-- Confirmation Message -->
+        <div id="confirmationMessage" style="display: none;">
+            <h2>Your booking has been confirmed!</h2>
+        </div>
+    </div>
+    
+    <div class="planeimglogo">
+    <img src="./planeimagelogo.png">
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div class="departureboard">
+        <h1>JetGalaxy's Departure Board:</h1>
+        <img src="./firstdepartureboard.png" alt="">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

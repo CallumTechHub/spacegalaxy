@@ -1,0 +1,428 @@
+/* General Reset and Body Styling */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: blue;  /* Light gray background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background: radial-gradient(circle, #ff7e5f, #feb47b, #6a11cb, #2575fc, #1bac19);
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    font-size: 2rem;
+    color: #003b5c;  /* Ryanair blue */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Form Section Styling */
+.form-section {
+    margin-bottom: 30px;
+}
+
+/* Labels and Inputs */
+label {
+    font-size: 1rem;
+    color: #003b5c;
+    margin-bottom: 8px;
+    display: block;
+    text-align: left;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* Select Styling */
+select {
+    background-color: #f9f9f9;
+    color: #003b5c;
+}
+
+/* Button Styling */
+button {
+    background-color: #009cde; /* Ryanair blue */
+    color: white;
+    padding: 15px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005b86;  /* Darker blue on hover */
+}
+
+/* Booking Summary */
+#bookingSummary {
+    margin-top: 20px;
+}
+
+#bookingSummary p {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Confirmation Message */
+#confirmationMessage {
+    text-align: center;
+    background-color: #28a745; /* Ryanair green */
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#confirmationMessage h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* Custom Styles for Booking Form Appearance */
+.form-section h2 {
+    font-size: 1.5rem;
+    color: #003b5c;  /* Ryanair blue */
+    margin-bottom: 15px;
+}
+
+/* Responsive Layout */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        padding: 12px 0;
+    }
+}
+
+.planetakeoff img {
+    position: absolute;
+    top: 450px;
+    left: 250px;
+}
+
+.planelanding img {
+    position: absolute;
+    right: 250px;
+    top: 450px;
+}
+
+.date {
+    width: 50px;
+}
+
+.planeimglogo img {
+    position: absolute;
+    top: -30px;
+    left: 860px;
+    height: 500px;
+}
+
+@media screen and (max-width: 500px) {
+    .planelanding {
+        position: absolute;
+        top: 600px;
+        left: 750px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+
+    .container {
+        position: absolute;
+        top: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .planelanding {
+        position: absolute;
+        top: 375px;
+        left: 500px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .planelanding {
+        position: absolute;
+        top: 375px;
+        left: 750px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .planelanding {
+        position: absolute;
+        top: 375px;
+        left: 750px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .planelanding {
+        position: absolute;
+        top: 375px;
+        left: 750px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .planelanding {
+        position: absolute;
+        top: 375px;
+        left: 750px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .planelanding {
+        position: absolute;
+        top: 375px;
+        left: 750px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .planelanding {
+        position: absolute;
+        top: 375px;
+        left: 750px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .planelanding {
+        position: absolute;
+        top: 375px;
+        left: 750px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .planelanding {
+        position: absolute;
+        top: 375px;
+        left: 750px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .planelanding {
+        position: absolute;
+        top: 375px;
+        left: 750px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .planelanding {
+        position: absolute;
+        top: 375px;
+        left: 750px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .planelanding {
+        position: absolute;
+        top: 375px;
+        left: 750px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 1900px) {
+    .planelanding {
+        position: absolute;
+        top: 375px;
+        left: 750px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .planelanding {
+        position: absolute;
+        top: 375px;
+        left: 750px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 2100px) {
+    .planelanding {
+        position: absolute;
+        top: 375px;
+        left: 750px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 2200px) {
+    .planelanding {
+        position: absolute;
+        top: 375px;
+        left: 750px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 2300px) {
+    .planelanding {
+        position: absolute;
+        top: 375px;
+        left: 750px;
+    }
+    
+    .planetakeoff {
+        position: absolute;
+        top: -500px;
+        left: -270px;
+    }
+}
+
+
+
+.departureboard img {
+    position: absolute;
+    top: 1400px;
+    left: 150px;
+    border-radius: 20px;
+    height: 400px;
+
+    left: 700px;
+}
+
+.departureboard h1 {
+    position: absolute;
+    top: 1320px;
+    left: 700px;
+}
