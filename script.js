@@ -52,5 +52,15 @@ document.addEventListener("DOMContentLoaded", function () {
     confirmButton.addEventListener("click", function () {
         bookingSummary.style.display = "none";
         confirmationMessage.style.display = "block";
+
+
+
+
+
+
+        
+        // Optional: Interact with the audio element
+    const audio = document.getElementById('googleDriveAudio');
+    // audio.play(); // Uncomment if you want it to autoplay (not recommended on mobile)
     });
 });
